@@ -1,0 +1,45 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.log
+*.idea
+
+# Gradle
+.gradle/
+build/
+
+# Compiled class file
+*.class
+
+# Dependency directories
+lib/
+libs/
+
+# Log files
+*.log.*
+
+# IntelliJ IDEA-based project files
+out/
+
+# Maven Wrapper
+.mvn/wrapper/
+
+# User-specific files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+
+# Miscellaneous
+*.swp
+*.tmp
+
+# Keystore files
+*.jks

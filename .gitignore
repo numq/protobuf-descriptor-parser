@@ -43,3 +43,6 @@ out/
 
 # Keystore files
 *.jks
+
+# Credentials
+credentials.properties

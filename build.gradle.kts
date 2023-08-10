@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.8.20"
+    `maven-publish`
 }
 
 group = "com.github.numq"
@@ -24,4 +25,12 @@ tasks.test {
 
 kotlin {
     jvmToolchain(11)
+}
+
+publishing {
+    publications {
+        register("mavenJava", MavenPublication::class) {
+            from(components["java"])
+        }
+    }
 }

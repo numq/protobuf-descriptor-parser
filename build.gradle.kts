@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "1.8.20"
 }
 
-group = "io.github.numq"
+group = "com.github.numq"
 version = "1.0.0"
 
 repositories {

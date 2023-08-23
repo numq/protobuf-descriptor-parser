@@ -74,6 +74,6 @@ v4.8.0**
 ```kotlin
 val protoFile = File("./path/to/*.proto")
 val schema = ProtoParser.parse(Location.get(path), proto.readText())
-val descriptor = Descriptors.FileDescriptor.buildFrom(schema.parseDescriptor(protoFile.Name), arrayOf())
+val descriptor = Descriptors.FileDescriptor.buildFrom(schema.parseDescriptor(protoFile.name), arrayOf())
 // Use descriptor to create a dynamic message or for other purposes
 ```
